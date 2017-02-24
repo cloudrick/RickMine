@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RickMine - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/RickMine.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\Rickyang\My Documents\My Source Code\RickMine\RickMine.rc"" 
+Creating temporary file "C:\DOCUME~1\Rickyang\LOCALS~1\Temp\RSP8F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/RickMine.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Rickyang\My Documents\My Source Code\RickMine\ChildView.cpp"
+"C:\Documents and Settings\Rickyang\My Documents\My Source Code\RickMine\MainFrm.cpp"
+"C:\Documents and Settings\Rickyang\My Documents\My Source Code\RickMine\RickMine.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Rickyang\LOCALS~1\Temp\RSP8F.tmp" 
+Creating temporary file "C:\DOCUME~1\Rickyang\LOCALS~1\Temp\RSP90.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/RickMine.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Rickyang\My Documents\My Source Code\RickMine\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Rickyang\LOCALS~1\Temp\RSP90.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/RickMine.pdb" /debug /machine:I386 /out:"Debug/RickMine.exe" /pdbtype:sept  ".\Debug\ChildView.obj" ".\Debug\MainFrm.obj" ".\Debug\RickMine.obj" ".\Debug\StdAfx.obj" ".\Debug\RickMine.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildView.cpp
+MainFrm.cpp
+RickMine.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+RickMine.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
